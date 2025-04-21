@@ -1,0 +1,74 @@
+# === UNITY PROJECT ===
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Visual Studio
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider
+.idea/
+*.sln.iml
+
+# Archivos de cache
+*.stackdump
+
+# Archivos de configuración personal
+*.apk
+*.keystore
+*.pdb
+
+# Archivos temporales del sistema operativo
+~$*
+
+# MacOS Spotlight
+*.meta~
+
+# Auto-generated VSCode config
+.vscode/
+
+# Unity Cloud Build
+.cloud/
+
+# Crash reports
+sysinfo.txt
+
+# Builds locales
+*.exe
+*.app
+*.dll
+*.dmg
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Unity Collaborate
+.collab/
+
+# Plastic SCM (si lo usas)
+.plastic/
