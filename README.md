@@ -1,4 +1,6 @@
 # 2025-04-15_taller1_transformaciones
+### Andres Felipe Patiño Camargo
+### Para ver el código completo, diríjase a la ruta que se encuentra debajo del título de cada sección. Estas rutas están precedidas por la frase '## ruta del script :'
 
 # Python
       ## ruta del script : python/Andres_Pentagono.ipynb
@@ -6,9 +8,16 @@
 ### 1ra implementacion
 en la 1ra implementacion se realizo un pentagono ![image](https://github.com/user-attachments/assets/b389af28-536b-4865-b270-c2fa8bdb8389)
 
-se impemento con la libreria ' matplotlib.pyplot ' donde se definieron los vertices manualmente en un array '[(0, 1), (0.95, 0.31), (0.59, -0.81), (-0.59, -0.81), (-0.95, 0.31)]'  de la figura y se le añadio un ultimo o primer vertice para cerrar la figura  'plt.plot(*zip(*vertices + [vertices[0]]), marker='o', linestyle='-')'
+se impemento con la libreria ' matplotlib.pyplot ' donde se definieron los vertices manualmente en un array 
+
+                  [(0, 1), (0.95, 0.31), (0.59, -0.81), (-0.59, -0.81), (-0.95, 0.31)]
+de la figura y se le añadio un ultimo o primer vertice para cerrar la figura 
+
+                  'plt.plot(*zip(*vertices + [vertices[0]]), marker='o', linestyle='-')'
 ### 2da implementacion
-en la 2da implementacion se genero las trasformaciones de traslacion ,rotacion y escalado con 15 iteraciones donde en cada una aumentaba el nivel de cada trasformacion ![image](https://github.com/user-attachments/assets/44ab96ef-8c53-4228-84f1-b7447a8f049d) Donde a cada vertice se le agrega un 1 'vertices_h = np.hstack([vertices, np.ones((vertices.shape[0], 1))])'
+en la 2da implementacion se genero las trasformaciones de traslacion ,rotacion y escalado con 15 iteraciones donde en cada una aumentaba el nivel de cada trasformacion ![image](https://github.com/user-attachments/assets/44ab96ef-8c53-4228-84f1-b7447a8f049d) Donde a cada vertice se le agrega un 1 
+
+      'vertices_h = np.hstack([vertices, np.ones((vertices.shape[0], 1))])'
 para poderlo multiplicar con la matris homogenea
 
         [sx * np.cos(theta), -sy * np.sin(theta), tx],
@@ -83,6 +92,7 @@ y se dibuja el objeto despues de definirlo
       fill(100, 200, 255);
       box(100);
 
+![procesing](https://github.com/user-attachments/assets/1828b6c2-f2da-40c0-8a67-4b54f08e7897)
 
 # threejs
       ## ruta del script : threejs/my-r3f-app/src/App.jsx
@@ -100,6 +110,7 @@ la traslacion del objeto por una trayectoria circular
           meshRef.current.position.z = radius * Math.sin(t)
       
 la rotacion  sobre su propio eje con incremento constante
+
           meshRef.current.rotation.x += 0.01
           meshRef.current.rotation.y += 0.01
       
@@ -109,7 +120,8 @@ y la escalacion suavemente con una función senoidal
           meshRef.current.scale.set(scale, scale, scale)
         })
 
-luego se rertorna la figura ya definoda 
+luego se rertorna la figura ya definida 
+
         return (
           <mesh ref={meshRef}>
             {/* 🎲 Agregar un objeto 3D: cubo o esfera */}
@@ -142,6 +154,9 @@ luego se llama para poderlo visualizar en el navegador
       }
       
       export default App
+![threejs](https://github.com/user-attachments/assets/16c1f4f6-6e7b-4077-9435-38fe2fdadfba)
+
+
 # Unity
       ## ruta del script : unity/My project/Assets/TutorialInfo/Scripts/MoverObjeto.cs
   
@@ -176,4 +191,10 @@ Traslación aleatoria por X o Y cada X segundos
       
                   transform.Translate(move * moveDistance, Space.World);
               }
-        
+      
+![Unity](https://github.com/user-attachments/assets/ebbefb5b-38f5-4060-b866-2b3ee8831d8f)
+
+
+
+
+
