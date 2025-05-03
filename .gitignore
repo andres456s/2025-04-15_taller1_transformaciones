@@ -1,0 +1,117 @@
+# === UNITY PROJECT ===
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Visual Studio
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider
+.idea/
+*.sln.iml
+
+# Archivos de cache
+*.stackdump
+
+# Archivos de configuración personal
+*.apk
+*.keystore
+*.pdb
+
+# Archivos temporales del sistema operativo
+~$*
+
+# MacOS Spotlight
+*.meta~
+
+# Auto-generated VSCode config
+.vscode/
+
+# Unity Cloud Build
+.cloud/
+
+# Crash reports
+sysinfo.txt
+
+# Builds locales
+*.exe
+*.app
+*.dll
+*.dmg
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Unity Collaborate
+.collab/
+
+# Plastic SCM
+.plastic/
+
+# === VITE / REACT / NODE ===
+
+# Dependencias
+node_modules/
+.pnpm/
+.yarn/
+.bun/
+
+# Builds
+dist/
+build/
+out/
+coverage/
+
+# Archivos temporales y de lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de entorno
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de caché
+.cache/
+*.log
+*.tsbuildinfo
+*.eslintcache
+
+# Directorios temporales
+tmp/
+temp/
+.tmp/

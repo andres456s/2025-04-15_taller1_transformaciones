@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Model Viewer</title>
+    <style>
+      body { margin: 0; overflow: hidden; }
+      select {
+        position: absolute;
+        z-index: 1;
+        top: 10px;
+        left: 10px;
+        padding: 5px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <select id="modelSelector">
+      <option value="gltf">GLTF</option>
+      <option value="obj">OBJ</option>
+      <option value="stl">STL</option>
+    </select>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
