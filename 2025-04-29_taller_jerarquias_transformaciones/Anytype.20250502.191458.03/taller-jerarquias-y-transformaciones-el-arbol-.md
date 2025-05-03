@@ -5,7 +5,7 @@
    
 1ro se creo el projecto con sus debidas librerias y frameworks ; tambien en el archivo de escenarios se definieron los slider para su respectiva rotacion y traslacion ,la animacion en los frames   
 - **GIFs animados** que muestren la visualización final en pantalla.   
-![Grabación-de-pantalla-2025-05-02-190116](files\grabacion-de-pantalla-2025-05-02-190116.gif)    
+![Grabación-de-pantalla-2025-05-02-190116](files/grabacion-de-pantalla-2025-05-02-190116.gif)    
 - Código relevante o enlaces al repositorio si no es posible cargarlo directamente.   
    
 ademas se creo las respectivas jerarquias como lo indica el taller   
@@ -54,7 +54,7 @@ como Crear una estructura padre-hijo usando <group> y varios objetos (<mesh>)par
    
 también se tuvo que desarrollar codigo donde se definio la funcion de cada slider boton y label sobre las figuras   
 - **GIFs animados** que muestren la visualización final en pantalla.   
-![Grabación-de-pantalla-2025-05-02-184924](files\grabacion-de-pantalla-2025-05-02-184924.gif)    
+![Grabación-de-pantalla-2025-05-02-184924](files/grabacion-de-pantalla-2025-05-02-184924.gif)    
 - Código relevante o enlaces al repositorio si no es posible cargarlo directamente.   
 - ✅ **Descripción general de los prompts usados** (si aplica).   
    
