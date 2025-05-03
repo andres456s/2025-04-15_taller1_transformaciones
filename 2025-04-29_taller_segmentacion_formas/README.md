@@ -153,7 +153,7 @@ Enumera los prompts utilizados:
 
 
 ```
- [https://chatgpt.com/share/68116038-b044-8004-98c9-b7a6f51d1afd](https://chatgpt.com/share/6811db0a-07cc-8004-8f2a-1f5052deb172)
+(https://chatgpt.com/share/6811db0a-07cc-8004-8f2a-1f5052deb172)
 ```
 
 
