@@ -151,11 +151,12 @@ Este código utiliza `@react-three/fiber` para renderizar una escena 3D interact
 
 ## 📊 Resultados Visuales  
 
-Se desarrollaron visualizaciones que muestran:  
+Resultado de la aplicacion en treeJs
 
-1. **Transformaciones geométricas individuales:** Ejemplo de cómo la traslación, rotación y escalado afectan un objeto.  
-2. **Transformaciones jerárquicas:** Aplicación acumulativa de transformaciones en un sistema de objetos padre-hijo.  
-3. **Animaciones:** Uso de transformaciones dinámicas para animar objetos en escenas interactivas creadas con Unity y Vite (React y Three.js).  
+
+![Grabación-de-pantalla-2025-05-02-190116 (1)](https://github.com/user-attachments/assets/c980beef-4b5a-48bf-8de2-d6f5a10d381b)
+
+
 
 ---
 
