@@ -90,7 +90,8 @@ plt.show()
 
 Durante el taller, se generaron visualizaciones que muestran:
 
-AAAAAAAAAAAAAAA
+
+![Grabación-de-pantalla-2025-05-08-214222](https://github.com/user-attachments/assets/9fc9f484-8d84-4fb6-8d6f-8a43ce7141ae)
 
 
 
