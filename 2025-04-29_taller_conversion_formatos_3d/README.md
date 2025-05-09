@@ -115,11 +115,8 @@ Este fragmento de código carga un modelo en formato `.OBJ`, analiza sus propied
 
 Los modelos convertidos mostraron diferencias importantes:  
 
-1. **Modelo `.OBJ`:** Formato básico, ideal para geometría simple.  
-2. **Modelo `.STL`:** Sin soporte para materiales, pero con buena representación geométrica.  
-3. **Modelo `.GLTF`:** Soporte avanzado para texturas y materiales, ideal para aplicaciones web.  
+ ![Grabación-de-pantalla-2025-05-08-220446](https://github.com/user-attachments/assets/f2a36139-c6d9-4681-9bc0-97f50533026b)
 
-Capturas de pantalla de la visualización en Three.js destacan las diferencias en texturas y suavidad de las superficies.  
 
 ---
 
